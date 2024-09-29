@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TouhouFest</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+</head>
+
+<body>
+
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/">TouhouFest</a>
+    </div>
+    <div class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item">Application</a>
+        <div class = "navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">About</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item">Event Info</a>
+            <a class="navbar-item">Convention Guidelines</a>
+          </div>
+        </div>
+        <a class="navbar-item">Badges</a>
+        <a class="navbar-item">Hotels</a>
+        <a class="navbar-item">Guests and Features</a>
+        <a class="navbar-item">Artists and Vendors</a>
+        <a class="navbar-item">Cosplay</a>
+        <a class="navbar-item">Intro to Touhou Project</a>
+        <a class="navbar-item">Contact Us</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="section">
+    <div class="container">
+      {% block content %} {% endblock %}
+    </div>
+  </section>
+</body>
+
+</html>
