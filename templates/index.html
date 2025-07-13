@@ -1,6 +1,14 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h1 class="title">Test</h1>
-<p>test</p>
-{% endblock %}
+  <section class="hero is-dark is-medium">
+    <div class="hero-body container">
+      <p class="title">
+        {{ config.extra.site_name | upper() }}
+      </p>
+      <p class="subtitle has-text-primary">
+          A summertime festival where Gensokyo comes to life!
+      </p>
+    </div>
+  </section>
+{% endblock content %}

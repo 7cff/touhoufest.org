@@ -8,9 +8,13 @@ compile_sass = true
 build_search_index = true
 
 [markdown]
-# Whether to do syntax highlighting
-# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
-highlight_code = false
 
 [extra]
-# Put all your custom variables here
+site_name = "TouhouFest"
+
+[extra.socials]
+discord_invite = "https://discord.gg/RAvBsTdZcK"
+twitter = "https://twitter.com/TouhouFest"
+bluesky = "https://bsky.app/profile/touhoufest.org"
+youtube = "https://www.youtube.com/@touhoufestofficial"
+instagram = "http://www.instagram.com/touhoufest"
